@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 import oxlintPlugin from 'vite-plugin-oxlint'
 
 export default defineConfig({
+  base: '/shikhaprof/',
+
   plugins: [
     react(),
     oxlintPlugin(),
