@@ -89,7 +89,7 @@ function Navbar() {
       <div className="container nav-container">
         <a href="#home" className="brand">
           <img
-            src="/logo2.svg"
+            src={`${import.meta.env.BASE_URL}logo2.svg`}
             alt="Shikha Rise IT Lab"
             className="brand-logo"
           />
@@ -241,7 +241,11 @@ function Hero() {
               <div className="profile-ring ring-two"></div>
 
               <div className="profile-avatar">
-                <img src="/shikha.jpg" alt="Shikha" />
+                <img
+  src={`${import.meta.env.BASE_URL}shikha.jpg`}
+  alt="Shikha Profile"
+  className="profile-image"
+/>
               </div>
 
               <div className="photo-status">
@@ -352,7 +356,11 @@ function AboutSection() {
         <div className="about-visual">
           <div className="about-frame">
             <div className="about-photo">
-              <img src="/shikha.jpg" alt="Shikha" />
+              <img
+  src={`${import.meta.env.BASE_URL}shikha.jpg`}
+  alt="About Shikha"
+  className="about-image"
+/>
             </div>
 
             <div className="about-frame-caption">
@@ -710,7 +718,11 @@ function ConsultationSection() {
         a deep understanding of LinkedIn’s algorithm. Highly recommend!
       </p>
       <div className="testimonial-client">
-        <img src="/carlos.jpeg" alt="Carlos Martinez" />
+  <img
+  src={`${import.meta.env.BASE_URL}carlos.jpeg`}
+  alt="Carlos"
+  className="client-photo"
+/>
         <div>
           <h4>Carlos Martinez</h4>
           <span>CEO &amp; Co-Founder, Dura-Shine Clean</span>
@@ -729,7 +741,11 @@ function ConsultationSection() {
         and go ahead.
       </p>
       <div className="testimonial-client">
-        <img src="/murad.jpeg" alt="Md. Murad Hasan" />
+        <img
+  src={`${import.meta.env.BASE_URL}murad.jpeg`}
+  alt="Murad"
+  className="client-photo"
+/>
         <div>
           <h4>Md. Murad Hasan</h4>
           <span>General Manager, Corporate Sales — UCB Fintech</span>
@@ -749,7 +765,11 @@ function ConsultationSection() {
         and credibility.
       </p>
       <div className="testimonial-client">
-        <img src="/sazzad.jpeg" alt="Md. Sazzad Hosen" />
+       <img
+  src={`${import.meta.env.BASE_URL}sazzad.jpeg`}
+  alt="Sazzad"
+  className="client-photo"
+/>
         <div>
           <h4>Md. Sazzad Hosen</h4>
           <span>LinkedIn Profile Optimization Client</span>
@@ -768,7 +788,11 @@ function ConsultationSection() {
         impact. Highly recommend.
       </p>
       <div className="testimonial-client">
-        <img src="/tahrima.jpeg" alt="Tahrima Islam" />
+        <img
+  src={`${import.meta.env.BASE_URL}tahrima.jpeg`}
+  alt="Tahrima"
+  className="client-photo"
+/>
         <div>
           <h4>Tahrima Islam</h4>
           <span>Linkedin Client</span>
@@ -824,7 +848,11 @@ function ConsultationSection() {
 </div>
 <div className="consultation-profile">
   <div className="consultation-profile-image">
-    <img src="/shikha.jpg" alt="Shikha" />
+    <img
+  src={`${import.meta.env.BASE_URL}shikha.jpg`}
+  alt="Shikha Profile"
+  className="profile-image"
+/>
   </div>
 
   <div className="consultation-profile-content">
@@ -1089,7 +1117,7 @@ function Footer() {
       <div className="container footer-inner">
         <a href="#home" className="brand">
           <img
-            src="/logo2.svg"
+            src={`${import.meta.env.BASE_URL}logo2.svg`}
             alt="Shikha Rise IT Lab"
             className="brand-logo"
           />
