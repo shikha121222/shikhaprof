@@ -1,15 +1,10 @@
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import oxlintPlugin from 'vite-plugin-oxlint'
 
 export default defineConfig({
   base: '/shikhaprof/',
-
-  plugins: [
-    react(),
-    oxlintPlugin(),
-  ],
-
+  plugins: [react()],
   server: {
     host: '0.0.0.0',
     allowedHosts: ['runner-absently-waltz.ngrok-free.dev'],
